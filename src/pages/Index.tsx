@@ -21,51 +21,15 @@ const Index = () => {
             
             <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold leading-tight">
               <span className="text-white block mb-3">Сайт на заказ,</span>
-              <span className="relative inline-block">
+              <span className="inline-block">
                 <span className="text-white">всего за </span>
-                <span className="relative inline-block">
-                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#8B5CF6] via-[#D946EF] to-[#0EA5E9] animate-pulse">
-                    30 дней
-                  </span>
-                  <span className="absolute -inset-1 bg-gradient-to-r from-[#8B5CF6]/30 via-[#D946EF]/30 to-[#0EA5E9]/30 blur-xl"></span>
-                </span>
+                <span className="text-[#00FF41] font-extrabold">30 дней</span>
               </span>
             </h1>
             
             <p className="text-[#C8C8C9] text-xl md:text-2xl font-light max-w-2xl mx-auto">
               Профессиональная разработка с гарантией качества и сроков
             </p>
-
-            <div className="flex gap-4 justify-center pt-4">
-              <Button 
-                size="lg" 
-                className="bg-gradient-to-r from-[#8B5CF6] to-[#D946EF] hover:from-[#7E3AF2] hover:to-[#C026D3] text-white font-semibold px-8 py-6 text-lg shadow-[0_0_30px_rgba(139,92,246,0.5)] transition-all duration-300 hover:shadow-[0_0_40px_rgba(139,92,246,0.7)] border-0"
-              >
-                Заказать сайт
-              </Button>
-              <Button 
-                size="lg" 
-                variant="outline"
-                className="border-[#0EA5E9] text-[#0EA5E9] hover:bg-[#0EA5E9]/10 font-semibold px-8 py-6 text-lg backdrop-blur-sm transition-all duration-300"
-              >
-                Примеры работ
-              </Button>
-            </div>
-          </div>
-
-          <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex gap-8 text-white/80 text-sm">
-            <div className="flex items-center gap-2">
-              <div className="w-2 h-2 bg-[#0EA5E9] rounded-full animate-pulse"></div>
-              <span>React + TypeScript</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <div className="w-2 h-2 bg-[#8B5CF6] rounded-full animate-pulse"></div>
-              <span>Адаптивный дизайн</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <div className="w-2 h-2 bg-[#D946EF] rounded-full animate-pulse"></div>
-              <span>SEO оптимизация</span>
-            </div>
           </div>
         </div>
 
