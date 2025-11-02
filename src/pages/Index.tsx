@@ -23,11 +23,11 @@ const Index = () => {
               <span className="text-white block mb-3">Сайт на заказ,</span>
               <span className="inline-block">
                 <span className="text-white">всего за </span>
-                <span className="text-[#00FF41] font-extrabold">30 дней</span>
+                <span className="font-extrabold text-[#9009ff]">30 дней</span>
               </span>
             </h1>
             
-            <p className="text-[#C8C8C9] text-xl md:text-2xl font-light max-w-2xl mx-auto">
+            <p className="text-xl md:text-2xl max-w-2xl mx-auto font-light text-[#ffffff]">
               Профессиональная разработка с гарантией качества и сроков
             </p>
           </div>
